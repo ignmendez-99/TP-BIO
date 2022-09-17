@@ -10,9 +10,10 @@ if __name__ == '__main__':
     genbank_file_path = args.gb
     output_path = args.o
 
-    genbank_file = open(genbank_file_path,'r')
+    genbank_file = open(genbank_file_path, 'r')
 
-    for genebank in SeqIO.parse(genbank_file, 'genbank'):
+    for genebank, i in SeqIO.parse(genbank_file, 'genbank'):
+        print(f'------------- Genbank record #{i} -------------')
         neuclotide_sequence = genebank.seq
         neuclotide_sequence_complementary = genebank.seq.reverse_complement()
 
