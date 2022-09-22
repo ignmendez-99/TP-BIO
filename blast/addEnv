@@ -1,0 +1,3 @@
+#!/bin/bash
+PATH=$PATH:$(dirname $(realpath $BASH_SOURCE))/ncbi-blast-2.13.0+/bin
+export BLASTDB=$(dirname $(realpath $BASH_SOURCE))/ncbi-blast-2.13.0+/data
