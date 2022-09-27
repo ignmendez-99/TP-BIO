@@ -10,7 +10,8 @@ if __name__ == '__main__':
     
     fasta_file = open(fasta_file_path, 'r')
 
-    for fastaRec in SeqIO.parse(fasta_file, 'fasta'):
+    for i,fastaRec in enumerate(SeqIO.parse(fasta_file, 'fasta')):
         # cline = NcbiblastpCommandline(cmd=f"$(dirname {__file__})/ncbi-blast-2.13.0+/blast/bin/blastp", db="swissport", remote=True)
-        cline = NcbiblastpCommandline(db="nr", remote=True)
-        print(cline(str(fastaRec.seq)))
+        cline = NcbiblastpCommandline(db="swissprotDB",remote=False)
+        with open(f'output_files/blast{i}.out','w') as f:
+            f.write(str(cline(str(fastaRec))))
