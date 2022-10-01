@@ -3,7 +3,7 @@ from Bio.SeqRecord import SeqRecord
 
 
 if __name__ == '__main__':
-    genbank_file_path = 'input_files/NG_007109.gb'
+    genbank_file_path = 'input_files/NM_000249.gb'
 
     genbank_file = open(genbank_file_path, 'r')
     genbank_count = 1
