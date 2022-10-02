@@ -1,0 +1,68 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_3",
+          "query_title": "<unknown id> Protein translated from NM_000249.4 with ORF = 3, using main stripe",
+          "query_len": 31,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|420202",
+                  "accession": "420202",
+                  "title": "P32618.1 RecName: Full=Uncharacterized protein YEL043W [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 956,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 8.11886,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 2,
+                  "query_to": 30,
+                  "hit_from": 9,
+                  "hit_to": 40,
+                  "align_len": 32,
+                  "gaps": 3,
+                  "qseq": "VIYALW---DVFFFLCIPIQSVVSKCDIQSVP",
+                  "hseq": "VLACLWLSYRLYKFLTIPVSSIVSTLKIKTPP",
+                  "midline": "V+  LW    ++ FL IP+ S+VS   I++ P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480087,
+            "db_len": 182233107,
+            "hsp_len": 6,
+            "eff_space": 4483814625,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

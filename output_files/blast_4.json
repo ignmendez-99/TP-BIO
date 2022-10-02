@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4",
+          "query_title": "<unknown id> Protein translated from NM_000249.4 with ORF = 1, using complementary stripe",
+          "query_len": 28,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|267987",
+                  "accession": "267987",
+                  "title": "A0JP94.1 RecName: Full=HEAT repeat-containing protein 5A [Xenopus tropicalis]"
+                }
+              ],
+              "len": 2021,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 1.94895,
+                  "identity": 11,
+                  "positive": 12,
+                  "query_from": 6,
+                  "query_to": 26,
+                  "hit_from": 1480,
+                  "hit_to": 1500,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "WANRLHTLFLWLFSRKLILPD",
+                  "hseq": "WAPILHASSLWLSSSGFVLPD",
+                  "midline": "WA  LH   LWL S   +LPD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|207765",
+                  "accession": "207765",
+                  "title": "Q8JFV4.1 RecName: Full=HEAT repeat-containing protein 5A [Danio rerio]"
+                }
+              ],
+              "len": 1998,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 3.67558,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 6,
+                  "query_to": 28,
+                  "hit_from": 1460,
+                  "hit_to": 1482,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "WANRLHTLFLWLFSRKLILPDDG",
+                  "hseq": "WATILHATALWLNSTGFIVVDEG",
+                  "midline": "WA  LH   LWL S   I+ D+G"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|34516",
+                  "accession": "34516",
+                  "title": "Q1IHV2.1 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; Short=GSA; AltName: Full=Glutamate-1-semialdehyde aminotransferase; Short=GSA-AT [Candidatus Koribacter versatilis Ellin345]"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 5.79556,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 2,
+                  "query_to": 21,
+                  "hit_from": 349,
+                  "hit_to": 368,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "GVCFWANRLHTLFLWLFSRK",
+                  "hseq": "GVALTANRVGSMFTWFFTDK",
+                  "midline": "GV   ANR+ ++F W F+ K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|435879",
+                  "accession": "435879",
+                  "title": "Q5PRF0.2 RecName: Full=HEAT repeat-containing protein 5A [Mus musculus]"
+                }
+              ],
+              "len": 2038,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 9.4361,
+                  "identity": 11,
+                  "positive": 12,
+                  "query_from": 6,
+                  "query_to": 28,
+                  "hit_from": 1496,
+                  "hit_to": 1518,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "WANRLHTLFLWLFSRKLILPDDG",
+                  "hseq": "WALILHAAALWLTSTGFADPDEG",
+                  "midline": "WA  LH   LWL S     PD+G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|340985",
+                  "accession": "340985",
+                  "title": "D4AU29.1 RecName: Full=Aminotransferase swnA; AltName: Full=Swainsonine biosynthesis gene cluster protein A [Trichophyton benhamiae CBS 112371]"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 9.78948,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 2,
+                  "query_to": 17,
+                  "hit_from": 392,
+                  "hit_to": 407,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "GVCFWANRLHTLFLWL",
+                  "hseq": "GLCTWTTPTHGMFLWI",
+                  "midline": "G+C W    H +FLW+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480087,
+            "db_len": 182233107,
+            "hsp_len": 3,
+            "eff_space": 4519821150,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

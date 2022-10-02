@@ -1,0 +1,278 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "<unknown id> Protein translated from NM_000249.4 with ORF = 2, using main stripe",
+          "query_len": 64,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|264855",
+                  "accession": "264855",
+                  "title": "P40167.1 RecName: Full=Sporulation-specific with a leucine zipper motif protein 1 [Saccharomyces cerevisiae S288C]"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.0184525,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 9,
+                  "query_to": 38,
+                  "hit_from": 178,
+                  "hit_to": 205,
+                  "align_len": 30,
+                  "gaps": 2,
+                  "qseq": "QSMKFTSCTRRASWSGCSSTSRASSWAPIP",
+                  "hseq": "QDMEFTSWERR--WSNCSTTSNATTVSSVP",
+                  "midline": "Q M+FTS  RR  WS CS+TS A++ + +P"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|458639",
+                  "accession": "458639",
+                  "title": "F8UL80.1 RecName: Full=Germacrene A synthase; Short=TpGAS [Tanacetum parthenium]"
+                }
+              ],
+              "len": 559,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.2536,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 498,
+                  "hit_to": 521,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKDINEGCLKPRQVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|287562",
+                  "accession": "287562",
+                  "title": "I6QSN0.1 RecName: Full=Germacrene-A synthase; AltName: Full=Terpene synthase 3 [Matricaria chamomilla var. recutita]"
+                }
+              ],
+              "len": 563,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.25421,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 502,
+                  "hit_to": 525,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKDINEGCLKPRQVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|142795",
+                  "accession": "142795",
+                  "title": "B0FGA9.1 RecName: Full=Germacrene A synthase 2; AltName: Full=Terpene synthase 1B; Short=HaTPS1B [Helianthus annuus]"
+                }
+              ],
+              "len": 559,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.51304,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 498,
+                  "hit_to": 521,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKEINEGCLKPREVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|129242",
+                  "accession": "129242",
+                  "title": "Q4U3F7.2 RecName: Full=Germacrene A synthase 1; AltName: Full=Terpene synthase 1A; Short=HaTPS1A [Helianthus annuus]"
+                }
+              ],
+              "len": 559,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.51304,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 498,
+                  "hit_to": 521,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKEINEGCLKPREVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|460269",
+                  "accession": "460269",
+                  "title": "Q8LSC2.1 RecName: Full=Germacrene A synthase short form; Short=CiGASsh [Cichorium intybus]"
+                }
+              ],
+              "len": 558,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.85828,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 497,
+                  "hit_to": 520,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKDINEGCLKPREVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|236057",
+                  "accession": "236057",
+                  "title": "A0A0D4D912.1 RecName: Full=Sesquiterpene synthase TPS3; AltName: Full=Germacrene A synthase; AltName: Full=Terpene synthase 3; Short=XsTPS3 [Xanthium strumarium]"
+                }
+              ],
+              "len": 559,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.85847,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 32,
+                  "query_to": 55,
+                  "hit_from": 498,
+                  "hit_to": 521,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SSWAPIPPGCTSPRLCYQDLLAPL",
+                  "hseq": "NAWKDINEGCLKPREVSMDLLAPI",
+                  "midline": "++W  I  GC  PR    DLLAP+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|288831",
+                  "accession": "288831",
+                  "title": "G5EB19.1 RecName: Full=Psi-producing oxygenase A; AltName: Full=Fatty acid oxygenase ppoA; Includes: RecName: Full=Linoleate 8R-lipoxygenase; Includes: RecName: Full=9,12-octadecadienoate 8-hydroperoxide 8R-isomerase [Aspergillus nidulans FGSC A4] Q6RET3.1 RecName: Full=Psi-producing oxygenase A; AltName: Full=Fatty acid oxygenase ppoA; Includes: RecName: Full=Linoleate 8R-lipoxygenase; Includes: RecName: Full=9,12-octadecadienoate 8-hydroperoxide 8R-isomerase [Aspergillus nidulans]"
+                }
+              ],
+              "len": 1081,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 2.88198,
+                  "identity": 16,
+                  "positive": 17,
+                  "query_from": 22,
+                  "query_to": 58,
+                  "hit_from": 376,
+                  "hit_to": 416,
+                  "align_len": 42,
+                  "gaps": 6,
+                  "qseq": "WSGCSSTSRASSWAP-----IPPGCTSPRLCYQDLLAPLGRW",
+                  "hseq": "WHACIS-KRDEKWTEDFHREIMPGVDPSTLSMQDFVAGLGRW",
+                  "midline": "W  C S  R   W       I PG     L  QD +A LGRW"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480087,
+            "db_len": 182233107,
+            "hsp_len": 36,
+            "eff_space": 4618599300,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

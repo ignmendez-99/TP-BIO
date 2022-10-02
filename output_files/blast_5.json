@@ -1,0 +1,98 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_5",
+          "query_title": "<unknown id> Protein translated from NM_000249.4 with ORF = 2, using complementary stripe",
+          "query_len": 84,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|438599",
+                  "accession": "438599",
+                  "title": "Q15X88.1 RecName: Full=2-dehydro-3-deoxy-phosphogluconate aldolase; AltName: Full=2-keto-3-deoxy-6-phospho-D-gluconate aldolase; AltName: Full=KDPG aldolase [Pseudoalteromonas atlantica T6c]"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 5.00697,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 47,
+                  "query_to": 75,
+                  "hit_from": 114,
+                  "hit_to": 142,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "PGGTSCSHFLSGIIFHHFHIRIFPMSLSG",
+                  "hseq": "PGISSISELMRGIDFGYTHFKFFPAEASG",
+                  "midline": "PG +S S  + GI F + H + FP   SG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|410040",
+                  "accession": "410040",
+                  "title": "Q220I8.1 RecName: Full=tRNA-cytidine(32) 2-sulfurtransferase; AltName: Full=Two-thiocytidine biosynthesis protein A; AltName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Rhodoferax ferrireducens T118]"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 5.55899,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 21,
+                  "query_to": 61,
+                  "hit_from": 128,
+                  "hit_to": 173,
+                  "align_len": 46,
+                  "gaps": 5,
+                  "qseq": "LPENLMSLLINFFLETQNT-SEVNDPSPGGTS----CSHFLSGIIF",
+                  "hseq": "LPEYLAKLGIEFHIETQDTYSIVKKVIPEGKTMCSLCSRLRRGILY",
+                  "midline": "LPE L  L I F +ETQ+T S V    P G +    CS    GI++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480087,
+            "db_len": 182233107,
+            "hsp_len": 55,
+            "eff_space": 4519021338,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

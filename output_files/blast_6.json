@@ -1,0 +1,188 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.13.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprotDB"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_6",
+          "query_title": "<unknown id> Protein translated from NM_000249.4 with ORF = 3, using complementary stripe",
+          "query_len": 62,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|314933",
+                  "accession": "314933",
+                  "title": "P86401.2 RecName: Full=Chlorotoxin-like peptide MeuClTx; AltName: Full=Chloride channel toxin-like peptide; Flags: Precursor [Mesobuthus eupeus]"
+                }
+              ],
+              "len": 39,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.739223,
+                  "identity": 12,
+                  "positive": 14,
+                  "query_from": 16,
+                  "query_to": 50,
+                  "hit_from": 1,
+                  "hit_to": 35,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "TSATVSPCFLTEKLMPALCTEYLPTTSKIFPYSSL",
+                  "hseq": "TEAMCMPCFTTDHNMAKKCRDCCGGNGKCFGYQCL",
+                  "midline": "T A   PCF T+  M   C +      K F Y  L"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|117350",
+                  "accession": "117350",
+                  "title": "Q09541.1 RecName: Full=Tripeptidyl-peptidase 2; Short=TPP2; AltName: Full=Tripeptidyl aminopeptidase; AltName: Full=Tripeptidyl peptidase II; Short=TPPII [Caenorhabditis elegans]"
+                }
+              ],
+              "len": 1374,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 1.02197,
+                  "identity": 18,
+                  "positive": 22,
+                  "query_from": 5,
+                  "query_to": 51,
+                  "hit_from": 417,
+                  "hit_to": 463,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "LSTVEALGSVLTSATVSPCFLTEKLMPALCTEYLPTTSKIFPYSSLG",
+                  "hseq": "LSTVGAPGGTTTGVIGIGAYLTSESADTLYGVYKPVESSIYPWSSRG",
+                  "midline": "LSTV A G   T       +LT +    L   Y P  S I+P+SS G"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|47096",
+                  "accession": "47096",
+                  "title": "O70537.1 RecName: Full=Cytochrome P450 3A31; AltName: Full=CYPIIIA31; AltName: Full=Cytochrome P450 SH3A-1 [Mesocricetus auratus]"
+                }
+              ],
+              "len": 501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 6.62473,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 22,
+                  "query_to": 57,
+                  "hit_from": 217,
+                  "hit_to": 252,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "PCFLTEKLMPALCTEYLPTTSKIFPYSSLGFFKAFL",
+                  "hseq": "PLFLSVVLFPFLIPIYEKLNVSMFPKDSISFFRKFV",
+                  "midline": "P FL+  L P L   Y      +FP  S+ FF+ F+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|277559",
+                  "accession": "277559",
+                  "title": "S7VVK4.1 RecName: Full=Guanylate cyclase; Short=TgGC; AltName: Full=Guanylyl cyclase; AltName: Full=TgATPaseP-GC [Toxoplasma gondii GT1]"
+                }
+              ],
+              "len": 4367,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 6.99556,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 4,
+                  "query_to": 38,
+                  "hit_from": 3941,
+                  "hit_to": 3975,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "ILSTVEALGSVLTSATVSPCFLTEKLMPALCTEYL",
+                  "hseq": "IITTARETASTVSTIATFPCYVFFNLVSAYCKEYI",
+                  "midline": "I++T     S +++    PC++   L+ A C EY+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|358321",
+                  "accession": "358321",
+                  "title": "Q64581.1 RecName: Full=Cytochrome P450 3A18; AltName: Full=CYPIIIA18; AltName: Full=Cytochrome P450(6)beta-2 [Rattus norvegicus]"
+                }
+              ],
+              "len": 497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 7.16994,
+                  "identity": 16,
+                  "positive": 21,
+                  "query_from": 8,
+                  "query_to": 57,
+                  "hit_from": 204,
+                  "hit_to": 253,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "VEALGSVLTSATVSPCFLTEKLMPALCTEYLPTTSKIFPYSSLGFFKAFL",
+                  "hseq": "VQKAKKILKFQIFDPFLLSVVLFPFLTPIYEMLNFSIFPRQSMNFFKKFV",
+                  "midline": "V+    +L      P  L+  L P L   Y      IFP  S+ FFK F+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 480087,
+            "db_len": 182233107,
+            "hsp_len": 35,
+            "eff_space": 4466611674,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
