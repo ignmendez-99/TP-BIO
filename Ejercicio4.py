@@ -1,27 +1,27 @@
+import shutil
 import xml.etree.ElementTree as ET
-import sys
 import os
 import argparse
-from Bio import Entrez
-
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 
 if __name__ == '__main__':
-    Entrez.email = 'A.N.Other@example.com'
 
-    parser = argparse.ArgumentParser(description='Ejercicio 4. BLAST + Pattern -> FASTAs')
-    parser.add_argument('-i', metavar='BLAST_FILE', help='Input BLAST XML file (default = sequences/results/blast.xml)', default='sequences/results/blast.xml')
-    parser.add_argument('-p', metavar='PATTERN', help='PATTERN', required=True)
-    parser.add_argument('-ob', metavar='OUTPUT_BLAST_FILE', help='Output Filtered BLAST File (XML) (default = sequences/results/blast_filter.xml)', default='sequences/results/blast_filter.xml')
-    parser.add_argument('-od', metavar='OUTPUT_FASTA_DIRECTORY', help='Output FASTAs Directory (default = sequences/results/ej4_fastas)', default='sequences/results/ej4_fastas')
-    parser.add_argument('-N', metavar='MAX_RESULTS', type=int, help='Maximum results to return (default = all)')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-input_file', default='output_files/blast.xml')
+    parser.add_argument('-pattern', required=True)
+    parser.add_argument('-output_file', default='output_files/Ejercicio4.xml')
+    parser.add_argument('-output_directory', default='output_files/Ejercicio4_files')
+    parser.add_argument('-n', type=int, required=True)
 
     args = parser.parse_args()
 
-    blast_file = args.i
-    pattern = args.p
-    output_blast = args.ob
-    output_dir = args.od
-    max_results = args.N
+    blast_file = args.input_file
+    pattern = args.pattern
+    output_blast = args.output_file
+    output_dir = args.output_directory
+    max_results = args.n
 
     xml_tree = ET.parse(blast_file)
     xml_root = xml_tree.getroot()
@@ -29,18 +29,23 @@ if __name__ == '__main__':
     filter_str = pattern.lower()
     data = []
     ids = []
+    descriptions = []
+    sequences = []
     for protein in proteins:
         hits = list(protein.find('Iteration_hits').iter('Hit'))
         for hit in hits:
             hit_description = hit.find('Hit_def').text
             if filter_str in hit_description.lower():
                 data.append(hit)
-                hit_accession = hit.find('Hit_accession').text
-                ids.append(hit_accession)
+                ids.append(hit.find('Hit_accession').text)
+                descriptions.append(hit_description)
+                sequences.append(hit.find('Hit_hsps').find('Hsp').find('Hsp_qseq').text)
 
     if max_results is not None:
         data = data[:max_results]
         ids = ids[:max_results]
+        descriptions = descriptions[:max_results]
+        sequences = sequences[:max_results]
 
     with open(output_blast, 'w') as save_file:
         save_file.write('<Hits>\n')
@@ -52,8 +57,9 @@ if __name__ == '__main__':
 
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
+    else:
+        shutil.rmtree(output_dir)
+        os.mkdir(output_dir)
 
-    for i,hit_id in enumerate(ids):
-        with open(f"{output_dir}/protein_{i}.fasta", 'w') as save_file:
-            handle = Entrez.efetch(db="protein", id=hit_id, rettype="fasta", retmode="text")
-            save_file.write(handle.read())
+    for i, hit_id in enumerate(ids):
+        SeqIO.write(SeqRecord(Seq(sequences[i]), hit_id, description=descriptions[i]), f"{output_dir}/protein_{i}.fasta", 'fasta')
