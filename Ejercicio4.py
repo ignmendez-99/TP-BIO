@@ -9,7 +9,7 @@ if __name__ == '__main__':
     Entrez.email = 'A.N.Other@example.com'
 
     parser = argparse.ArgumentParser(description='Ejercicio 4. BLAST + Pattern -> FASTAs')
-    parser.add_argument('-i', metavar='BLAST_FILE', help='Input BLAST XML file (default = sequences/results/blast.out)', default='sequences/results/blast.out')
+    parser.add_argument('-i', metavar='BLAST_FILE', help='Input BLAST XML file (default = sequences/results/blast.xml)', default='sequences/results/blast.xml')
     parser.add_argument('-p', metavar='PATTERN', help='PATTERN', required=True)
     parser.add_argument('-ob', metavar='OUTPUT_BLAST_FILE', help='Output Filtered BLAST File (XML) (default = sequences/results/blast_filter.xml)', default='sequences/results/blast_filter.xml')
     parser.add_argument('-od', metavar='OUTPUT_FASTA_DIRECTORY', help='Output FASTAs Directory (default = sequences/results/ej4_fastas)', default='sequences/results/ej4_fastas')

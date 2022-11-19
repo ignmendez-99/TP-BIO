@@ -6,7 +6,7 @@ printUsage(){
 }
 
 INPUT_FILE="output_files/Ejercicio1_1.fasta"
-OUTPUT_FILE="output_files/blast.out"
+OUTPUT_FILE="output_files/blast.xml"
 
 if [[ $# -ne 1 ]] 
 then
