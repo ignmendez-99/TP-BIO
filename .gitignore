@@ -6,3 +6,5 @@ blast/*
 !blast/envVars
 !blast/installDBUbuntu.sh
 !blast/addEnv
+
+prosite

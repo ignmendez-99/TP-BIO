@@ -21,9 +21,9 @@ Luego podemos hacer:
 
 para agregar blast al `$PATH` y asi poder correr `blastp`. Por ulitmo corremos:
 
-- `Ejercicio2.sh local`
+- `./Ejercicio2.sh local`
 o
-- `Ejercicio2.sh remoto`
+- `./Ejercicio2.sh remoto`
 
 dependiendo de si queremos correrlo local o remoto
 
@@ -35,4 +35,14 @@ python Ejercicio3.py [-input_file BLAST_OUTPUT] [-output_file ARCHIVO_FASTA] [-n
 ### Ejercicio 4
 ```
 python Ejercicio4.py [-input_file ARCHIVO_BLAST_XML] -pattern PATTERN [-output_file ARCHIVO_BLAST_XML_OUTPUT] [-output_directory OUTPUT_FASTA_DIRECTORY] [-N MAX_RESULTS]
+```
+
+### Ejercicio 5 - ORFs
+```
+./Ejercicio5_orf.sh
+```
+
+### Ejercicio 5 - motivos
+```
+sudo ./Ejercicio5_motivos.sh
 ```

@@ -1,0 +1,64 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 27 Nov 2022 23:12:46
+# Commandline: patmatmotifs
+#    -sequence output_files/Ejercicio1_protein.fasta
+#    -outfile output_files/Ejercicio5/motifs.patmatmotifs
+# Report_format: dbmotif
+# Report_file: output_files/Ejercicio5/motifs.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: <unknown     from: 1   to: 756
+# HitCount: 4
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 554 of sequence
+End = position 561 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+LLNTTKLSEELFYQILIY
+     |      |
+   554      561
+
+Length = 7
+Start = position 98 of sequence
+End = position 104 of sequence
+
+Motif = DNA_MISMATCH_REPAIR_1
+
+SISTYGFRGEALASISH
+     |     |
+    98     104
+
+Length = 8
+Start = position 554 of sequence
+End = position 561 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+LLNTTKLSEELFYQILIY
+     |      |
+   554      561
+
+Length = 8
+Start = position 273 of sequence
+End = position 280 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+ESTSLRKAIETVYAAYLP
+     |      |
+   273      280
+
+
+#---------------------------------------
+#---------------------------------------
