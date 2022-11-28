@@ -25,8 +25,8 @@ def write_output_file(results: list, output_file: str) -> None:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-input_file', type=str, help='Path al archivo input (output de BLAST)', default='output_files/blast_1.json')
-    parser.add_argument('-output_file', type=str, help='Path al archivo output', default='output_files/Ejercicio3_top10_resultados.fasta')
+    parser.add_argument('-input_file', type=str, help='Path al archivo input (output de BLAST) (en formato JSON)', default='output_files/Ejercicio2/blast_1.json')
+    parser.add_argument('-output_file', type=str, help='Path al archivo output', default='output_files/Ejercicio3/Ejercicio3_top_resultados.fasta')
     parser.add_argument('-n', type=int, help='Cantidad de resultados', default=10)
     args = parser.parse_args()
 

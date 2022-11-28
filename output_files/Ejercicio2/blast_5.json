@@ -25,8 +25,8 @@
               "num": 1,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|438599",
-                  "accession": "438599",
+                  "id": "gnl|BL_ORD_ID|438856",
+                  "accession": "438856",
                   "title": "Q15X88.1 RecName: Full=2-dehydro-3-deoxy-phosphogluconate aldolase; AltName: Full=2-keto-3-deoxy-6-phospho-D-gluconate aldolase; AltName: Full=KDPG aldolase [Pseudoalteromonas atlantica T6c]"
                 }
               ],
@@ -36,7 +36,7 @@
                   "num": 1,
                   "bit_score": 28.4906,
                   "score": 62,
-                  "evalue": 5.00697,
+                  "evalue": 5.01024,
                   "identity": 12,
                   "positive": 16,
                   "query_from": 47,
@@ -55,8 +55,8 @@
               "num": 2,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|410040",
-                  "accession": "410040",
+                  "id": "gnl|BL_ORD_ID|410289",
+                  "accession": "410289",
                   "title": "Q220I8.1 RecName: Full=tRNA-cytidine(32) 2-sulfurtransferase; AltName: Full=Two-thiocytidine biosynthesis protein A; AltName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Rhodoferax ferrireducens T118]"
                 }
               ],
@@ -66,7 +66,7 @@
                   "num": 1,
                   "bit_score": 28.4906,
                   "score": 62,
-                  "evalue": 5.55899,
+                  "evalue": 5.56263,
                   "identity": 19,
                   "positive": 24,
                   "query_from": 21,
@@ -83,10 +83,10 @@
             }
           ],
           "stat": {
-            "db_num": 480087,
-            "db_len": 182233107,
+            "db_num": 480361,
+            "db_len": 182352356,
             "hsp_len": 55,
-            "eff_space": 4519021338,
+            "eff_space": 4522042529,
             "kappa": 0.041,
             "lambda": 0.267,
             "entropy": 0.14

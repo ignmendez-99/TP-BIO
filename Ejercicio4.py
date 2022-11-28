@@ -5,6 +5,7 @@ import argparse
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
+from Bio import Entrez
 
 if __name__ == '__main__':
 
@@ -13,7 +14,7 @@ if __name__ == '__main__':
     parser.add_argument('-pattern', required=True)
     parser.add_argument('-output_file', default='output_files/Ejercicio4.xml')
     parser.add_argument('-output_directory', default='output_files/Ejercicio4_files')
-    parser.add_argument('-n', type=int, required=True)
+    parser.add_argument('-n', type=int, required=True, default=5)
 
     args = parser.parse_args()
 
@@ -61,5 +62,9 @@ if __name__ == '__main__':
         shutil.rmtree(output_dir)
         os.mkdir(output_dir)
 
+    Entrez.email = 'ignmendez@itba.edu.ar'
+
     for i, hit_id in enumerate(ids):
-        SeqIO.write(SeqRecord(Seq(sequences[i]), hit_id, description=descriptions[i]), f"{output_dir}/protein_{i}.fasta", 'fasta')
+        with open(f"{output_dir}/result_{i}.fasta", 'w') as save_file:
+            handle = Entrez.efetch(db="protein", id=hit_id, rettype="fasta", retmode="text")
+            save_file.write(handle.read())

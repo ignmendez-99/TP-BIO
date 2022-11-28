@@ -25,8 +25,8 @@
               "num": 1,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|267987",
-                  "accession": "267987",
+                  "id": "gnl|BL_ORD_ID|268157",
+                  "accession": "268157",
                   "title": "A0JP94.1 RecName: Full=HEAT repeat-containing protein 5A [Xenopus tropicalis]"
                 }
               ],
@@ -36,7 +36,7 @@
                   "num": 1,
                   "bit_score": 26.9498,
                   "score": 58,
-                  "evalue": 1.94895,
+                  "evalue": 1.95022,
                   "identity": 11,
                   "positive": 12,
                   "query_from": 6,
@@ -55,8 +55,8 @@
               "num": 2,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|207765",
-                  "accession": "207765",
+                  "id": "gnl|BL_ORD_ID|207896",
+                  "accession": "207896",
                   "title": "Q8JFV4.1 RecName: Full=HEAT repeat-containing protein 5A [Danio rerio]"
                 }
               ],
@@ -66,7 +66,7 @@
                   "num": 1,
                   "bit_score": 26.1794,
                   "score": 56,
-                  "evalue": 3.67558,
+                  "evalue": 3.67798,
                   "identity": 11,
                   "positive": 13,
                   "query_from": 6,
@@ -85,8 +85,8 @@
               "num": 3,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|34516",
-                  "accession": "34516",
+                  "id": "gnl|BL_ORD_ID|34533",
+                  "accession": "34533",
                   "title": "Q1IHV2.1 RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase; Short=GSA; AltName: Full=Glutamate-1-semialdehyde aminotransferase; Short=GSA-AT [Candidatus Koribacter versatilis Ellin345]"
                 }
               ],
@@ -96,7 +96,7 @@
                   "num": 1,
                   "bit_score": 25.7942,
                   "score": 55,
-                  "evalue": 5.79556,
+                  "evalue": 5.79935,
                   "identity": 9,
                   "positive": 13,
                   "query_from": 2,
@@ -115,8 +115,8 @@
               "num": 4,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|435879",
-                  "accession": "435879",
+                  "id": "gnl|BL_ORD_ID|436133",
+                  "accession": "436133",
                   "title": "Q5PRF0.2 RecName: Full=HEAT repeat-containing protein 5A [Mus musculus]"
                 }
               ],
@@ -126,7 +126,7 @@
                   "num": 1,
                   "bit_score": 25.0238,
                   "score": 53,
-                  "evalue": 9.4361,
+                  "evalue": 9.44227,
                   "identity": 11,
                   "positive": 12,
                   "query_from": 6,
@@ -145,8 +145,8 @@
               "num": 5,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|340985",
-                  "accession": "340985",
+                  "id": "gnl|BL_ORD_ID|341196",
+                  "accession": "341196",
                   "title": "D4AU29.1 RecName: Full=Aminotransferase swnA; AltName: Full=Swainsonine biosynthesis gene cluster protein A [Trichophyton benhamiae CBS 112371]"
                 }
               ],
@@ -156,7 +156,7 @@
                   "num": 1,
                   "bit_score": 25.0238,
                   "score": 53,
-                  "evalue": 9.78948,
+                  "evalue": 9.79588,
                   "identity": 7,
                   "positive": 10,
                   "query_from": 2,
@@ -173,10 +173,10 @@
             }
           ],
           "stat": {
-            "db_num": 480087,
-            "db_len": 182233107,
+            "db_num": 480361,
+            "db_len": 182352356,
             "hsp_len": 3,
-            "eff_space": 4519821150,
+            "eff_space": 4522781825,
             "kappa": 0.041,
             "lambda": 0.267,
             "entropy": 0.14

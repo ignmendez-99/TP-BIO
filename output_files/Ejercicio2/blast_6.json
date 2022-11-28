@@ -25,8 +25,8 @@
               "num": 1,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|314933",
-                  "accession": "314933",
+                  "id": "gnl|BL_ORD_ID|315130",
+                  "accession": "315130",
                   "title": "P86401.2 RecName: Full=Chlorotoxin-like peptide MeuClTx; AltName: Full=Chloride channel toxin-like peptide; Flags: Precursor [Mesobuthus eupeus]"
                 }
               ],
@@ -36,7 +36,7 @@
                   "num": 1,
                   "bit_score": 28.4906,
                   "score": 62,
-                  "evalue": 0.739223,
+                  "evalue": 0.739707,
                   "identity": 12,
                   "positive": 14,
                   "query_from": 16,
@@ -55,8 +55,8 @@
               "num": 2,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|117350",
-                  "accession": "117350",
+                  "id": "gnl|BL_ORD_ID|117420",
+                  "accession": "117420",
                   "title": "Q09541.1 RecName: Full=Tripeptidyl-peptidase 2; Short=TPP2; AltName: Full=Tripeptidyl aminopeptidase; AltName: Full=Tripeptidyl peptidase II; Short=TPPII [Caenorhabditis elegans]"
                 }
               ],
@@ -66,7 +66,7 @@
                   "num": 1,
                   "bit_score": 29.6462,
                   "score": 65,
-                  "evalue": 1.02197,
+                  "evalue": 1.02264,
                   "identity": 18,
                   "positive": 22,
                   "query_from": 5,
@@ -85,8 +85,8 @@
               "num": 3,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|47096",
-                  "accession": "47096",
+                  "id": "gnl|BL_ORD_ID|47120",
+                  "accession": "47120",
                   "title": "O70537.1 RecName: Full=Cytochrome P450 3A31; AltName: Full=CYPIIIA31; AltName: Full=Cytochrome P450 SH3A-1 [Mesocricetus auratus]"
                 }
               ],
@@ -96,7 +96,7 @@
                   "num": 1,
                   "bit_score": 27.335,
                   "score": 59,
-                  "evalue": 6.62473,
+                  "evalue": 6.62906,
                   "identity": 13,
                   "positive": 18,
                   "query_from": 22,
@@ -115,8 +115,8 @@
               "num": 4,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|277559",
-                  "accession": "277559",
+                  "id": "gnl|BL_ORD_ID|277733",
+                  "accession": "277733",
                   "title": "S7VVK4.1 RecName: Full=Guanylate cyclase; Short=TgGC; AltName: Full=Guanylyl cyclase; AltName: Full=TgATPaseP-GC [Toxoplasma gondii GT1]"
                 }
               ],
@@ -126,7 +126,7 @@
                   "num": 1,
                   "bit_score": 27.335,
                   "score": 59,
-                  "evalue": 6.99556,
+                  "evalue": 7.00014,
                   "identity": 10,
                   "positive": 19,
                   "query_from": 4,
@@ -145,8 +145,8 @@
               "num": 5,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|358321",
-                  "accession": "358321",
+                  "id": "gnl|BL_ORD_ID|358542",
+                  "accession": "358542",
                   "title": "Q64581.1 RecName: Full=Cytochrome P450 3A18; AltName: Full=CYPIIIA18; AltName: Full=Cytochrome P450(6)beta-2 [Rattus norvegicus]"
                 }
               ],
@@ -156,7 +156,7 @@
                   "num": 1,
                   "bit_score": 27.335,
                   "score": 59,
-                  "evalue": 7.16994,
+                  "evalue": 7.17463,
                   "identity": 16,
                   "positive": 21,
                   "query_from": 8,
@@ -173,10 +173,10 @@
             }
           ],
           "stat": {
-            "db_num": 480087,
-            "db_len": 182233107,
+            "db_num": 480361,
+            "db_len": 182352356,
             "hsp_len": 35,
-            "eff_space": 4466611674,
+            "eff_space": 4469572467,
             "kappa": 0.041,
             "lambda": 0.267,
             "entropy": 0.14

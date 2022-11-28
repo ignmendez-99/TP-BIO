@@ -25,8 +25,8 @@
               "num": 1,
               "description": [
                 {
-                  "id": "gnl|BL_ORD_ID|420202",
-                  "accession": "420202",
+                  "id": "gnl|BL_ORD_ID|420452",
+                  "accession": "420452",
                   "title": "P32618.1 RecName: Full=Uncharacterized protein YEL043W [Saccharomyces cerevisiae S288C]"
                 }
               ],
@@ -36,7 +36,7 @@
                   "num": 1,
                   "bit_score": 25.409,
                   "score": 54,
-                  "evalue": 8.11886,
+                  "evalue": 8.12418,
                   "identity": 12,
                   "positive": 19,
                   "query_from": 2,
@@ -53,10 +53,10 @@
             }
           ],
           "stat": {
-            "db_num": 480087,
-            "db_len": 182233107,
+            "db_num": 480361,
+            "db_len": 182352356,
             "hsp_len": 6,
-            "eff_space": 4483814625,
+            "eff_space": 4486754750,
             "kappa": 0.041,
             "lambda": 0.267,
             "entropy": 0.14

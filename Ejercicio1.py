@@ -1,9 +1,18 @@
+import argparse
+
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
 
 if __name__ == '__main__':
-    genbank_file_path = 'input_files/NM_000249.gb'
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-input_file', metavar='GENBANK_FILE', default='input_files/NM_000249.gb')
+    parser.add_argument('-output_file', metavar='FASTA_FILE', default='output_files/Ejercicio1_protein.fasta')
+    args = parser.parse_args()
+
+    genbank_file_path = args.input_file
+    output_path = args.output_file
 
     genbank_file = open(genbank_file_path, 'r')
     genbank_count = 1
@@ -49,8 +58,6 @@ if __name__ == '__main__':
 
         print(f'--- Longest protein ---\n{longest_protein}')
         print(f'--- Length of longest protein ---\n{len(longest_protein)}')
-
-        output_path = f'output_files/Ejercicio1_{genbank_count}.fasta'
 
         protein_records = []
 
