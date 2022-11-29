@@ -3,7 +3,7 @@
 
 input="output_files/Ejercicio1_protein.fasta"
 output="output_files/Ejercicio5/motifs.patmatmotifs"
-download=false
+download=true
 
 if $download
 then
